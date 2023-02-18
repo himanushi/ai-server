@@ -1,6 +1,19 @@
 # Local AI Chatbot
 このリポジトリは、Hugging Face の Transformers ライブラリを使用して、ローカル環境で簡単に対話型AIモデルを実装し、インタラクティブな対話を行うことができます。対話モデルは Hugging Face の提供する多くの学習済みモデルを使用することができ、自分で学習したモデルを使うこともできます。
 
+# 事前準備
+[Hugging Face](https://huggingface.co/)でアカウントを作成し、以下コマンドでログインしておいてください
+
+```
+huggingface-cli login
+```
+
+以下コマンドでログイン確認
+
+```
+huggingface-cli whoami
+```
+
 # 必要なライブラリ
 transformers
 これらのライブラリは以下のようにしてインストールできます。
